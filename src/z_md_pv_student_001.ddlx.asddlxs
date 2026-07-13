@@ -1,0 +1,45 @@
+@Metadata.layer: #CUSTOMER
+annotate entity ZCDS_PV_STUDENT_001 with
+{
+
+  @UI.facet: [
+    {
+      id: 'General',
+      purpose: #STANDARD,
+      type: #IDENTIFICATION_REFERENCE,
+      label: 'Student Details',
+      position: 10
+    }
+  ]
+
+  @UI.lineItem: [
+    {
+      position: 60,
+      type: #FOR_ACTION,
+      dataAction: 'calculateAge',
+      label: 'Calculate Age'
+    }
+  ]
+  
+  @UI.identification: [{ position: 20 }]
+  @UI.selectionField: [{ position: 20 }]
+  Studentid;
+
+  @UI.lineItem: [{ position: 30 }]
+  @UI.identification: [{ position: 30 }]
+  @UI.selectionField: [{ position: 30 }]
+  Name;
+
+  @UI.lineItem: [{ position: 40 }]
+  @UI.identification: [{ position: 40 }]
+  Address;
+
+  @UI.lineItem: [{ position: 50 }]
+  @UI.identification: [{ position: 50 }]
+  dob;
+
+  @UI.lineItem: [{ position: 60 }]
+  @UI.identification: [{ position: 60 }]
+  Age;
+
+}

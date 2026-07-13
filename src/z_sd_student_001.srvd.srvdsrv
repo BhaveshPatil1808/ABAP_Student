@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for Student'
+define service Z_SD_STUDENT_001 {
+  expose ZCDS_PV_STUDENT_001;
+}

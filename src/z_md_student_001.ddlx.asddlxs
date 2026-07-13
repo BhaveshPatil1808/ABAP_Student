@@ -1,0 +1,35 @@
+@Metadata.layer: #CUSTOMER
+annotate entity ZCDS_STUDENT_001
+    with 
+{
+    @UI.lineItem: [{ position: 10 }]
+    @UI.identification: [{ position: 10 }]
+    @UI.selectionField: [{ position: 10 }]
+    @EndUserText.label: 'Student ID'
+    Studentid;
+
+    @UI.lineItem: [{ position: 20 }]
+    @UI.identification: [{ position: 20 }]
+    @UI.selectionField: [{ position: 20 }]
+    @EndUserText.label: 'Student Name'
+    Name;
+
+    @UI.lineItem: [{ position: 30 }]
+    @UI.identification: [{ position: 30 }]
+    @EndUserText.label: 'Address'
+    Address;
+    
+    
+    @UI.lineItem: [{ position: 40 }]
+    @UI.identification: [{ position: 40 }]
+    @EndUserText.label: 'Date of Birth'
+    dob;
+    
+    
+    @UI.lineItem: [{ position: 50 }]
+    @UI.identification: [{ position: 50 }]
+    @EndUserText.label: 'Age'
+    Age;
+
+    
+}
